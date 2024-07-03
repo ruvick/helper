@@ -43,47 +43,155 @@
 
 <!-- PADDING ==========================================  -->
 
+<!-- Paadding-top None  -->
+q-pt-none
+
 <!-- Paadding-top 8px  -->
+q-pt-xs
 
 <!-- Paadding-top 16px  -->
+q-pt-sm
 
 <!-- Paadding-top 24px  -->
+q-pt-md
 
 <!-- Paadding-top 32px  -->
+q-pt-lg
 
 <!-- Paadding-top 48px  -->
+q-pt-xl
+
+<!-- Paadding-bottom None  -->
+q-pb-none
 
 <!-- Paadding-bottom 8px  -->
+q-pb-xs
 
 <!-- Paadding-bottom 16px  -->
+q-pb-sm
  
 <!-- Paadding-bottom 24px  -->
+q-pb-md
  
 <!-- Paadding-bottom 32px  -->
- 
+q-pb-lg
+
 <!-- Paadding-bottom 48px  -->
+q-pb-xl
+
+<!-- Paadding-None  -->
+q-pl-none
 
 <!-- Paadding-left 8px  -->
+q-pl-xs
 
 <!-- Paadding-left 16px  -->
+q-pl-sm
 
 <!-- Paadding-left 24px  -->
+q-pl-md
 
 <!-- Paadding-left 32px  -->
+q-pl-lg
 
 <!-- Paadding-left 48px  -->
+q-pl-xl
+
+<!-- Paadding-None  -->
+q-pr-none
 
 <!-- Paadding-right 8px  -->
+q-pr-xs
 
 <!-- Paadding-right 16px  -->
+q-pr-sm
  
 <!-- Paadding-right 24px  -->
+q-pr-md
  
 <!-- Paadding-right 32px  -->
+q-pr-lg
  
 <!-- Paadding-right 48px  -->
+q-pr-xl
 
 <!-- MARGIN ==========================================  -->
+
+<!-- Margin-top None  -->
+q-mt-none
+
+<!-- Margin-top 8px  -->
+q-mt-xs
+
+<!-- Margin-top 16px  -->
+q-mt-sm
+
+<!-- Margin-top 24px  -->
+q-mt-md
+
+<!-- Margin-top 32px  -->
+q-mt-lg
+
+<!-- Margin-top 48px  -->
+q-mt-xl
+
+<!-- Margin-bottom None  -->
+q-mb-none
+
+<!-- Margin-bottom 8px  -->
+q-mb-xs
+
+<!-- Margin-bottom 16px  -->
+q-mb-sm
+ 
+<!-- Margin-bottom 24px  -->
+q-mb-md
+
+<!-- Margin-bottom 32px  -->
+q-mb-lg
+
+<!-- Margin-bottom 48px  -->
+q-mb-xl
+
+<!-- Margin-left-None  -->
+q-ml-none
+
+<!-- Margin-left 8px  -->
+q-ml-xs
+
+<!-- Margin-left 16px  -->
+q-ml-sm
+
+<!-- Margin-left 24px  -->
+q-ml-md
+
+<!-- Margin-left 32px  -->
+q-ml-lg
+
+<!-- Margin-left 48px  -->
+q-ml-xl
+
+<!-- Margin-left Auto  -->
+q-ml-xl
+
+<!-- Margin-right None  -->
+q-mr-none
+
+<!-- Margin-right 8px  -->
+q-mr-xs
+
+<!-- Margin-right 16px  -->
+q-mr-sm
+ 
+<!-- Margin-right 24px  -->
+q-mr-md
+ 
+<!-- Margin-right 32px  -->
+q-mr-lg
+ 
+<!-- Margin-right 48px  -->
+q-mr-xl
+
 
 <!-- ========================================================================= КНОПКИ =================================================================================== -->
 

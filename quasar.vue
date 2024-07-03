@@ -238,25 +238,10 @@ q-mr-xl
 
 <!-- ========================================================================= DIALOG =================================================================================== -->
 
-<q-dialog
-	v-model="dialogPromoModal"
-	class="dialog-full"
-	position="right"
->
-	<PromoModal />
-</q-dialog>
-
-<!-- Окно  -->
-
-<div class="column q-pt-lg q-pb-lg">
-	<q-btn unelevated color="blue-1" class="my-btn text-weight-bold q-mb-sm" no-caps @click="dialogNewSubcategoryModal = true"> 
-		<q-icon name="svguse:icons/allIcons.svg#plus" size="12px" class="q-mr-sm" />
-		<span class="block">Новая подкатегория</span>
-	</q-btn>
-	<q-btn unelevated color="blue-1" class="my-btn q-mb-md text-weight-bold" no-caps @click="dialogNewCategoryModal = true">
-			<span class="block">Новая Категория</span>
-	</q-btn>
-</div>
+<!-- Кнопка вызова окна  -->
+<q-btn unelevated color="blue-1" class="my-btn" @click="dialogNewCategoryModal = true">
+	<span class="block">Новая Категория</span>
+</q-btn>
 
 <!-- Окно Категории  -->
 <q-dialog v-model="dialogCategoryModal"> 
@@ -275,6 +260,53 @@ q-mr-xl
 			</q-card-section>
 	</q-card>
 </q-dialog>
+
+<!-- Вызов компонента окна  -->
+<q-dialog
+	v-model="dialogPromoModal"
+	class="dialog-full"
+	position="right"
+>
+	<PromoModal />
+</q-dialog>
+
+<!-- Большое боковое окно -->
+<q-card class="modal-card bg-blue-grey-9" style="height: 100%;">
+	<q-btn color="primary" class="btn-close btn-no-effects" v-close-popup>
+	 <q-icon name="svguse:icons/allIcons.svg#close-modal-out" color="white" size="32px" />
+	</q-btn>
+
+	<q-card-section class="modal-card__sec q-pt-md q-pl-lg q-pr-xl q-pb-lg" style="display: flex; flex-direction: column; min-height: 100%;">
+
+	 <q-card-section class="modal-card__wrapper" style="padding: 10px 20px 40px 20px; flex: 1 1 auto">
+
+		 <!-- Header -->
+		 <q-card-section class="modal-card__header" style="padding: 0 0 32px 0;">
+			  <div class="text-title-middle text-grey-10">Создание нового товара / услуги</div>
+		 </q-card-section>
+
+		 <q-card-section class="modal-card__body body-modal" style="height: 730px; overflow: auto;">
+
+		 </q-card-section>
+
+	 </q-card-section>
+
+	 <q-card-section class="modal-card__footer">
+		 <!-- Bottom-Buttons-Panel -->
+		 <div class="body-modal__row row justify-between items-center" style="padding: 10px;">
+		  <div class="col-auto">
+			  <q-btn class="q-btn-no text-h6 no-hover text-grey-10" outline flat label="Отмена" type="reset" primary/>
+		  </div>
+		  <div class="col-auto">
+			  <q-btn unelevated color="blue-1" class="my-btn q-mr-md text-weight-bold">
+				<span class="block">Сохранить</span>
+			  </q-btn>
+		  </div>
+		 </div>
+	 </q-card-section>
+
+	</q-card-section>
+</q-card>
 
 <!-- ======================================================== ПОДКЛЮЧЕНИЕ КОМПОНЕНТОВ =================================================================================== -->
 <template>
